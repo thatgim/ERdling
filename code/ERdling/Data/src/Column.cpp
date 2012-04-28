@@ -10,9 +10,6 @@
 Column::Column() {
 }
 
-Column::Column(const Column& orig) {
-}
-
 Column::~Column() {
 }
 

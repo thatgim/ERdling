@@ -11,7 +11,6 @@
 class ColumnType {
 public:
     ColumnType();
-    ColumnType(const ColumnType& orig);
     virtual ~ColumnType();
 private:
 

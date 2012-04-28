@@ -10,9 +10,6 @@
 ColumnType::ColumnType() {
 }
 
-ColumnType::ColumnType(const ColumnType& orig) {
-}
-
 ColumnType::~ColumnType() {
 }
 
