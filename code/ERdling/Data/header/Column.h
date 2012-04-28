@@ -14,7 +14,7 @@ public:
     Column(const Column& orig);
     virtual ~Column();
 private:
-
+    ColumnType _ColumnType;
 };
 
 #endif	/* COLUMN_H */

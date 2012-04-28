@@ -5,7 +5,7 @@
  * Created on 28. April 2012, 20:57
  */
 
-#include "Column.h"
+#include "../header/Column.h"
 
 Column::Column() {
 }
