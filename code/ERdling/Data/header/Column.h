@@ -12,7 +12,7 @@
 
 class Column {
 public:
-    Column(ColumnType);
+    Column(*ColumnType);
     virtual ~Column();
     
     ColumnType *getColumnType():
