@@ -16,7 +16,6 @@ public:
     virtual ~Column();
     
     ColumnType *getColumnType():
-    
 private:
     ColumnType _ColumnType;
 };

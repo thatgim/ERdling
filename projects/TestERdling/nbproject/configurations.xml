@@ -5,6 +5,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="TestERdling" displayName="TestERdling" projectFiles="true">
+        <itemPath>../../code/TestERdling/mainTest.cpp</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="TestFiles"

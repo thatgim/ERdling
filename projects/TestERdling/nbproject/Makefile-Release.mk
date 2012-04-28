@@ -33,7 +33,8 @@ include Makefile
 OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
-OBJECTFILES=
+OBJECTFILES= \
+	${OBJECTDIR}/_ext/1204471463/mainTest.o
 
 
 # C Compiler Flags
@@ -58,7 +59,12 @@ LDLIBSOPTIONS=
 
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testerdling: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testerdling ${OBJECTFILES} ${LDLIBSOPTIONS} 
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testerdling ${OBJECTFILES} ${LDLIBSOPTIONS} 
+
+${OBJECTDIR}/_ext/1204471463/mainTest.o: ../../code/TestERdling/mainTest.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/1204471463
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1204471463/mainTest.o ../../code/TestERdling/mainTest.cpp
 
 # Subprojects
 .build-subprojects:
