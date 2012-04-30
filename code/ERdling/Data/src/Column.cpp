@@ -13,3 +13,8 @@ Column::Column() {
 Column::~Column() {
 }
 
+ColumnType* Column::getColumnType()
+{
+    return Column::ColumnType_;
+}
+

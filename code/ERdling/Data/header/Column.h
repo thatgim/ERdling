@@ -8,16 +8,16 @@
 #ifndef COLUMN_H
 #define	COLUMN_H
 
-#include "../header/ColumnType.h"
+class ColumnType;
 
 class Column {
 public:
     Column(*ColumnType);
     virtual ~Column();
     
-    ColumnType *getColumnType():
+    ColumnType* getColumnType();
 private:
-    ColumnType _ColumnType;
+    ColumnType ColumnType_;
 };
 
 #endif	/* COLUMN_H */
