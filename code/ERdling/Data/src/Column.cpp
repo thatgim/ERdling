@@ -7,13 +7,13 @@
 
 #include "../header/Column.h"
 
-Column::Column() {
+Column::Column(ColumnType*) {
 }
 
 Column::~Column() {
 }
 
-ColumnType* Column::getColumnType()
+const ColumnType* Column::getColumnType()
 {
     return Column::ColumnType_;
 }

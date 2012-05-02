@@ -12,12 +12,12 @@ class ColumnType;
 
 class Column {
 public:
-    Column(*ColumnType);
+    Column(ColumnType*);
     virtual ~Column();
     
-    ColumnType* getColumnType();
+    const ColumnType* getColumnType();
 private:
-    ColumnType ColumnType_;
+    ColumnType* ColumnType_;
 };
 
 #endif	/* COLUMN_H */
