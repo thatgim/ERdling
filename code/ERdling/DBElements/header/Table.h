@@ -9,6 +9,7 @@
 #define	TABLE_H
 
 #include <list>
+#include <iostream>
 
 class Column;
 class PrimaryKey;
