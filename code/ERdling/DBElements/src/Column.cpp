@@ -9,7 +9,7 @@
 
 Column::Column(std::string name, ColumnType* columntype_) {
     this->ColumnType_ = columntype_;
-    this->Name = name;
+    this->Name_ = name;
 }
 
 Column::~Column() {
@@ -22,10 +22,10 @@ const ColumnType* Column::getColumnType()
 
 const std::string* Column::getName()
 {
-    return &this->Name;
+    return &this->Name_;
 }
 
 std::string Column::getSQLSpare()
 {
-    return this->Name + " " + this->ColumnType_->getSQLSpare();
+    return this->Name_ + " " + this->ColumnType_->getSQLSpare();
 }

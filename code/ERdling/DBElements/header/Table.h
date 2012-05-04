@@ -9,6 +9,7 @@
 #define	TABLE_H
 
 #include "Column.h"
+#include "PrimaryKey.h"
 #include <list>
 
 class Table {
@@ -17,10 +18,11 @@ public:
     virtual ~Table();
 
     const std::string* getName();
-    const std::list<Column> getColumns();
+    const std::list<Column*>* getColumns();
 private:
-    std::list<Column> Columns;
-    std::string Name;
+    std::string Name_;
+    std::list<Column*> Columns_;
+    PrimaryKey* Primarykey_;
 };
 
 #endif	/* TABLE_H */

@@ -21,7 +21,7 @@ public:
     const ColumnType* getColumnType();
 private:
     ColumnType* ColumnType_;
-    std::string Name;
+    std::string Name_;
 };
 
 #endif	/* COLUMN_H */
