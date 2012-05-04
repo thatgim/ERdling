@@ -5,16 +5,16 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="ERdling" displayName="ERdling" projectFiles="true">
-        <logicalFolder name="Data" displayName="Data" projectFiles="true">
+        <logicalFolder name="Data" displayName="DBElements" projectFiles="true">
           <logicalFolder name="header" displayName="header" projectFiles="true">
-            <itemPath>../../code/ERdling/Data/header/Column.h</itemPath>
-            <itemPath>../../code/ERdling/Data/header/ColumnType.h</itemPath>
+            <itemPath>../../code/ERdling/DBElements/header/Column.h</itemPath>
+            <itemPath>../../code/ERdling/DBElements/header/ColumnType.h</itemPath>
           </logicalFolder>
           <logicalFolder name="src" displayName="src" projectFiles="true">
-            <itemPath>../../code/ERdling/Data/src/Column.cpp</itemPath>
-            <itemPath>../../code/ERdling/Data/src/ColumnType.cpp</itemPath>
+            <itemPath>../../code/ERdling/DBElements/src/Column.cpp</itemPath>
           </logicalFolder>
         </logicalFolder>
+        <itemPath>../../code/ERdling/main.cpp</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="TestFiles"
