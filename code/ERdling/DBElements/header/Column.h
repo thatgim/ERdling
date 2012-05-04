@@ -9,7 +9,8 @@
 #define	COLUMN_H
 
 #include <iostream>
-#include "ColumnType.h"
+
+class ColumnType;
 
 class Column {
 public:

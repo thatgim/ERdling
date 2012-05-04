@@ -8,8 +8,9 @@
 #ifndef PRIMARYKEY_H
 #define	PRIMARYKEY_H
 
-#include "Column.h"
 #include <list>
+
+class Column;
 
 class PrimaryKey {
 public:

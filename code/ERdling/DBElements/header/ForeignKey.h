@@ -8,8 +8,8 @@
 #ifndef FOREIGNKEY_H
 #define	FOREIGNKEY_H
 
-#include "Column.h"
-#include "Table.h"
+class Column;
+class Table;
 
 class ForeignKey {
 public:
