@@ -13,7 +13,6 @@ public:
     ColumnType() {};
     virtual ~ColumnType();
     
-    virtual std::string getSQLSpare() = 0;
 private:
 };
 

@@ -17,7 +17,6 @@ public:
     virtual ~Column();
     
     const std::string* getName();
-    std::string getSQLSpare();
     const ColumnType* getColumnType();
 private:
     ColumnType* ColumnType_;

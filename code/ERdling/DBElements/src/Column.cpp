@@ -24,8 +24,3 @@ const std::string* Column::getName()
 {
     return &this->Name_;
 }
-
-std::string Column::getSQLSpare()
-{
-    return this->Name_ + " " + this->ColumnType_->getSQLSpare();
-}

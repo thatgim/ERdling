@@ -7,9 +7,15 @@
 
 #include "../header/Table.h"
 
-Table::Table(std::string name) {
+Table::Table(std::string name) 
+{
+    this->Name_ = name;
 }
 
 Table::~Table() {
 }
 
+const std::list<Column*>* Table::getColumns()
+{
+    return &this->Columns_;
+}

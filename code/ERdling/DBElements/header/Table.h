@@ -8,9 +8,11 @@
 #ifndef TABLE_H
 #define	TABLE_H
 
-#include "Column.h"
-#include "PrimaryKey.h"
 #include <list>
+
+class Column;
+class PrimaryKey;
+class ForeignKey;
 
 class Table {
 public:
@@ -23,6 +25,7 @@ private:
     std::string Name_;
     std::list<Column*> Columns_;
     PrimaryKey* Primarykey_;
+    std::list<ForeignKey*> ForeignKeys_;
 };
 
 #endif	/* TABLE_H */
