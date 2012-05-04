@@ -5,12 +5,9 @@
  * Created on 4. Mai 2012, 21:55
  */
 
-#include "Table.h"
+#include "../header/Table.h"
 
-Table::Table() {
-}
-
-Table::Table(const Table& orig) {
+Table::Table(std::string name) {
 }
 
 Table::~Table() {

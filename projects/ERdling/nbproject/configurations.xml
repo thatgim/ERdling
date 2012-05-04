@@ -9,9 +9,11 @@
           <logicalFolder name="header" displayName="header" projectFiles="true">
             <itemPath>../../code/ERdling/DBElements/header/Column.h</itemPath>
             <itemPath>../../code/ERdling/DBElements/header/ColumnType.h</itemPath>
+            <itemPath>../../code/ERdling/DBElements/header/Table.h</itemPath>
           </logicalFolder>
           <logicalFolder name="src" displayName="src" projectFiles="true">
             <itemPath>../../code/ERdling/DBElements/src/Column.cpp</itemPath>
+            <itemPath>../../code/ERdling/DBElements/src/Table.cpp</itemPath>
           </logicalFolder>
         </logicalFolder>
         <itemPath>../../code/ERdling/main.cpp</itemPath>

@@ -7,7 +7,9 @@
 
 #include "../header/Column.h"
 
-Column::Column(std::string, ColumnType*) {
+Column::Column(std::string name, ColumnType* columntype_) {
+    this->ColumnType_ = columntype_;
+    this->Name = name;
 }
 
 Column::~Column() {
@@ -20,10 +22,10 @@ const ColumnType* Column::getColumnType()
 
 const std::string* Column::getName()
 {
-    return this->Name;
+    return &this->Name;
 }
 
-const std::string Column::getSQLSpare()
+std::string Column::getSQLSpare()
 {
     return this->Name + " " + this->ColumnType_->getSQLSpare();
 }
