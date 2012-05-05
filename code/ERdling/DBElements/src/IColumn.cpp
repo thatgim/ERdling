@@ -5,22 +5,22 @@
  * Created on 28. April 2012, 20:57
  */
 
-#include "../header/Column.h"
+#include "../header/IColumn.h"
 
-Column::Column(std::string name, ColumnType* columntype_) {
+IColumn::IColumn(std::string name, IColumnType* columntype_) {
     this->ColumnType_ = columntype_;
     this->Name_ = name;
 }
 
-Column::~Column() {
+IColumn::~IColumn() {
 }
 
-const ColumnType* Column::getColumnType()
+const IColumnType* IColumn::getColumnType()
 {
     return this->ColumnType_;
 }
 
-const std::string* Column::getName()
+const std::string* IColumn::getName()
 {
     return &this->Name_;
 }

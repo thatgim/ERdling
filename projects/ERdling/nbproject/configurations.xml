@@ -7,17 +7,17 @@
       <logicalFolder name="ERdling" displayName="ERdling" projectFiles="true">
         <logicalFolder name="Data" displayName="DBElements" projectFiles="true">
           <logicalFolder name="header" displayName="header" projectFiles="true">
-            <itemPath>../../code/ERdling/DBElements/header/Column.h</itemPath>
-            <itemPath>../../code/ERdling/DBElements/header/ColumnType.h</itemPath>
             <itemPath>../../code/ERdling/DBElements/header/ForeignKey.h</itemPath>
-            <itemPath>../../code/ERdling/DBElements/header/PrimaryKey.h</itemPath>
-            <itemPath>../../code/ERdling/DBElements/header/Table.h</itemPath>
+            <itemPath>../../code/ERdling/DBElements/header/IColumn.h</itemPath>
+            <itemPath>../../code/ERdling/DBElements/header/IColumnType.h</itemPath>
+            <itemPath>../../code/ERdling/DBElements/header/IPrimaryKey.h</itemPath>
+            <itemPath>../../code/ERdling/DBElements/header/ITable.h</itemPath>
           </logicalFolder>
           <logicalFolder name="src" displayName="src" projectFiles="true">
-            <itemPath>../../code/ERdling/DBElements/src/Column.cpp</itemPath>
-            <itemPath>../../code/ERdling/DBElements/src/ForeignKey.cpp</itemPath>
-            <itemPath>../../code/ERdling/DBElements/src/PrimaryKey.cpp</itemPath>
-            <itemPath>../../code/ERdling/DBElements/src/Table.cpp</itemPath>
+            <itemPath>../../code/ERdling/DBElements/src/IColumn.cpp</itemPath>
+            <itemPath>../../code/ERdling/DBElements/src/IForeignKey.cpp</itemPath>
+            <itemPath>../../code/ERdling/DBElements/src/IPrimaryKey.cpp</itemPath>
+            <itemPath>../../code/ERdling/DBElements/src/ITable.cpp</itemPath>
           </logicalFolder>
         </logicalFolder>
         <itemPath>../../code/ERdling/main.cpp</itemPath>

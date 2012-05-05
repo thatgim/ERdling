@@ -5,21 +5,21 @@
  * Created on 4. Mai 2012, 23:19
  */
 
-#ifndef FOREIGNKEY_H
-#define	FOREIGNKEY_H
+#ifndef IFOREIGNKEY_H
+#define	IFOREIGNKEY_H
 
-class Column;
-class Table;
+class IColumn;
+class ITable;
 
-class ForeignKey {
+class IForeignKey {
 public:
-    ForeignKey(Column*, Table*, Column*);
-    virtual ~ForeignKey();
+    IForeignKey(IColumn*, ITable*, IColumn*);
+    virtual ~IForeignKey();
 private:
-    Column* BaseColumn_;
-    Table* ForeignTable_;
-    Column* ForeignColumn_;
+    IColumn* BaseColumn_;
+    ITable* ForeignTable_;
+    IColumn* ForeignColumn_;
 };
 
-#endif	/* FOREIGNKEY_H */
+#endif	/* IFOREIGNKEY_H */
 
